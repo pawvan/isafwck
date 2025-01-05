@@ -1,0 +1,2 @@
+ifconfig em0 up 
+dhclient

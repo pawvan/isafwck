@@ -1,0 +1,5 @@
+ifconfig em0 up 
+dhclient em0
+replace em0 with your network interface 
+package management update ur the package repository 
+pkg update && pkg upgrade 

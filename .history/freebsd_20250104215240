@@ -1,0 +1,4 @@
+ifconfig em0 up 
+dhclient em0
+
+replace em0 with 

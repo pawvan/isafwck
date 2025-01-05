@@ -1,0 +1,5 @@
+#!bin/bash
+clean_logs(){
+    local directory =$1
+    find "director
+}

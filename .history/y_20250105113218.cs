@@ -1,0 +1,12 @@
+int age =18
+string name="pawan"
+bool isActive =true
+switch(name){
+    case "pawan":
+    Console.WriteLine("that is pawan");
+    break;
+    case "jayadeep":
+    Console.WriteLine("that is jayadeep");
+    break;
+    
+}

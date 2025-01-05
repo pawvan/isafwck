@@ -1,0 +1,37 @@
+package main 
+import (
+	"fmt",
+	"io/util"
+	,"os"
+)
+
+func greetEngineer(name string ,years int) string {
+err:=ioutil.WriteFile("log.txt",[]byte)
+	if years >2{
+	return fmt.Sprintf("welcome ,%s your experienced enough for Devops . ",name)
+
+}
+return fmt.Sprintf("hi %s , keep working on yur skills ",name)
+
+}
+func main(){
+	fmt.Println(greet_engineer("alice",3))
+	name:="devops engineer"
+	experience:=3
+	tools:=[]string{
+		"docker","kubernetes","ansible"
+	}
+	fmt.Printf("hello :%s yoy have %d years of experience .\n",name,experience)
+	//loops 
+	for _,tools :=range tools{
+		fmt.Printf("=skilled in %s\n",tool)
+	}
+	if experience >2{
+		fmt.Println("you are eligible for this role!")
+
+	}
+	else{
+		fmt.Println("keep learning")
+	}
+}
+// variables loops and conditionals
